@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <title></title>
+</head>
+<body>
+<!--头部导航-->
+<div class="head-bar-container">
+    <div class="head-bar">
+        <div class="left_logo">
+            <a href="index.html">
+                <img class="logo" src="img/logo.png">
+            </a>
+            <a href="index.html">
+                <h2>天气网眼</h2>
+            </a>
+        </div>
+        <ul class="navbar">
+            <li class="active">首页</li>
+            <li>功能</li>
+            <li>帮助</li>
+            <li>登录</li>
+        </ul>
+        <span class="user-tip">用户未登录?</span>
+    </div>
+</div>
+<!--天气网眼介绍-->
+<div class="introduce-part-container">
+    <div class="introduce-part">
+        <h1>智慧天气网眼，一款新型图像加工气象服务产品</h1>
+    </div>
+</div>
+<!--地图预留空间-->
+<div class="map-container">
+    <div class="map_tip">
+        <h2>天气网眼全国站点分布图</h2>
+
+        <h3><img src="img/tip-icon.png">提示：单击站点，体验详细的天气网眼产品加工</h3>
+    </div>
+    <div class="main-container">
+        <div id="main">
+        </div>
+    </div>
+</div>
+<!--联系方式-->
+<div class="connect-container">
+    <div class="connect">
+        <div class="connect_way">
+            <h1>联系方式</h1>
+
+            <h3>官网：<a href="http://www.tianqi.cn">http://www.tianqi.cn</a></h3>
+
+            <h3>地址：北京市海淀区中关村南大街
+                46号中国气象局华风楼5G</h3>
+
+            <h3>邮编：100081</h3>
+
+            <h3>电话：010-68408068</h3>
+
+            <h3>邮箱：webmaster@tianqi.cn</h3>
+        </div>
+        <div class="form_to_submit">
+            <h1>意见反馈</h1>
+
+            <form class="myform">
+                <div>
+                    <label>反馈类型：</label>
+                    <select>
+                        <option>安装问题</option>
+                        <option>产品问题</option>
+                    </select></div>
+                <div><label>反馈类型：</label><input type="text"></div>
+                <div>
+                    <label>问题描述：</label>
+                    <textarea placeholder="发帖前请先前往问题页。。"></textarea>
+                </div>
+                <button type="submit">提交</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4WX8aeFY6VaQrQzlymEGeByE"></script>
+<script src="js/esl.js"></script>
+<script src="js/echarts.js"></script>
+<script src="js/index.js"></script>
+<script></script>
+</body>
+</html>

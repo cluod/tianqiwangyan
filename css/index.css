@@ -1,0 +1,214 @@
+body {
+    width: 100%;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*头部导航*/
+.head-bar-container {
+    width: 100%;
+    height: 60px;
+}
+
+.head-bar {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left_logo {
+    width: 600px;
+    height: 60px;
+    float: left;
+}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+}
+
+.left_logo h2 {
+    float: left;
+    font-size: 26px;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-family: "微软雅黑";
+    color: #1a1a1a;
+}
+
+.navbar {
+    width: 600px;
+    height: 60px;
+    float: left;
+    vertical-align: middle;
+}
+
+.navbar li {
+    float: left;
+    font-size: 20px;
+    font-family: "黑体";
+    margin-left: 128px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.navbar li:nth-child(1) {
+    margin-left: 72px;
+}
+
+.navbar li:nth-child(4) {
+    margin-left: 72px;
+    margin-top: 12px;
+    background-color: #2bade9;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.user-tip {
+    position: absolute;
+    right: -100px;
+    top: 30px;
+}
+
+.active {
+    color: #2bade9;
+}
+
+/*天气网眼介绍*/
+.introduce-part-container {
+    width: 100%;
+    height: 120px;
+    min-width: 1200px;
+    background: url("../img/wallhaven.jpg") 0 0 no-repeat;
+    background-size: cover;
+
+}
+
+.introduce-part {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introduce-part h1 {
+    color: white;
+    font-size: 40px;
+    font-family: "微软雅黑";
+    margin-top: 40px;
+    text-align: center;
+}
+
+.map-container {
+    width: 1200px;
+    height: 770px;
+    margin: 0 auto;
+}
+
+.map_tip {
+    height: 95px;
+    overflow: hidden;
+}
+
+.map_tip h2 {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    margin-top: 35px;
+}
+
+.map_tip h3 {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-top: 18px;
+}
+
+.map_tip h3 img {
+    float: left;
+    margin-top: 1px;
+    margin-right: 3px;
+}
+
+.main-container {
+    height: 675px;
+}
+
+#main {
+    width: 1200px;
+    height: 675px;
+    margin: 0 auto;
+}
+
+/*去除百度地图左下方的版权信息和logo*/
+.anchorBL {
+    display: none;
+}
+
+.connect-container {
+    width: 100%;
+    height: 260px;
+    min-width: 1200px;
+    background: #dedede;
+}
+
+.connect {
+    width: 1200px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.connect div {
+    width: 600px;
+    height: 260px;
+    float: left;
+}
+
+.form_to_submit h1,.connect_way h1 {
+    width: 600px;
+    font-size: 20px;
+    font-family: "黑体";
+    text-align: center;
+    margin-top: 18px;
+}
+.connect_way h3{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-family: "黑体";
+    margin-top: 7px;
+    line-height: 25px;
+}
+.connect_way h3:nth-of-type(1){
+    margin-top: 25px;
+}
+form{
+width: 285px;
+    margin: 0 auto;
+    font-size: 17px;
+    font-family: "黑体";
+}
+.myform div{
+    height: 30px;
+}
